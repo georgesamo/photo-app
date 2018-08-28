@@ -65,3 +65,35 @@
 .btn-primary:visited, .btn-danger:visited {
   color: #fff;
 }
+
+.features {
+  
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: asset-url('batman.jpg');
+  background-size: cover;
+  color: #fff;
+  font-stretch: expanded;
+  padding-top: 75px;
+  padding-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  height: 270px;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
